@@ -1,0 +1,23 @@
+{
+  "name": "downloadpic",
+  "version": "1.0.0",
+  "description": "node.js 爬虫批量下载图片",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "爬虫",
+    "批量下载"
+  ],
+  "author": "rainbow",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "bagpipe": "^0.3.5",
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
+    "request": "^2.83.0"
+  }
+}
